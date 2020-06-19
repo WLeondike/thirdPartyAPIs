@@ -1,6 +1,7 @@
 //TODOS
 //1. Display current time using Moment.js
-
+$("#currentDay").text(moment().format("ddd MMM Do, YYYY"))
+moment().format("YYYY-MM-DD HH:mm");
 //2. Click event to save the text area content to local storage
 
 //3. When app opens, display content for each time block from local storage. 
